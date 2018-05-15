@@ -22,9 +22,12 @@ after a little while and doesn't know what to predict next so it predicts the sa
 times before figuring out what to do. When using a 50 note sequence this does not occur. In this
 situation, the model does not generalize as well since it is only trained on one song each time.
 When trained with a sequence of twenty, one output can be seen here:
+
 ![Twenty](/screenshots/twenty.png)
+
 When training with a sequence of fifty, one output can be seen here. As can be noticed,
 training with fifty does not lead to a short sequence where the same note is repeated.
+
 ![Fifty](/screenshots/fifty.png)
 
 
